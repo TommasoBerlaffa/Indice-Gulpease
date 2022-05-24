@@ -4,7 +4,7 @@
 import textract
 
 nf = input("Digita il nome del PDF di cui vuoi calcolare l'indice di leggibilita': ")
-testo = textract.prstr(ocess(nf, method='pdftotext'))
+testo = str(textract.process(nf, method='pdftotext'))
 
 #print(testo)
 
